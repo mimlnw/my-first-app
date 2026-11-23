@@ -2,6 +2,7 @@ import streamlit as st
 
 st.set_page_config(page_title="คำนวณค่าดัชนีมวลกาย BMI", page_icon="🏋️")
 
+st.markdown("🏋️ คำนวณค่าดัชนีมวลกาย BMI")
 st.title("🏋️ คำนวณค่าดัชนีมวลกาย BMI")
 st.write("กรอกข้อมูลน้ำหนักและส่วนสูงของคุณ เพื่อเช็กสุขภาพเบื้องต้น")
 
