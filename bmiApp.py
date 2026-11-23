@@ -1,8 +1,8 @@
 import streamlit as st
 
-st.set_page_config(page_title="คำนวณค่าดัชนีมวลกาย BMI", page_icon="🏋️")
+st.set_page_config(page_title="คำนวณค่าดัชนีมวลกาย BMI", page_icon="💪")
 
-st.title("🏋️ คำนวณค่าดัชนีมวลกาย BMI")
+st.title("💪 คำนวณค่าดัชนีมวลกาย BMI")
 st.write("กรอกข้อมูลน้ำหนักและส่วนสูงของคุณ เพื่อเช็กสุขภาพเบื้องต้น")
 
 weight = st.number_input("กรอกน้ำหนักของคุณ (กิโลกรัม):", min_value=1.0, max_value=300.0, value=55.0, step=0.5)
