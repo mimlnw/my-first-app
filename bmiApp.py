@@ -2,11 +2,11 @@ import streamlit as st
 
 st.set_page_config(page_title="คำนวณค่าดัชนีมวลกาย BMI", page_icon="💪")
 
-st.markdown("#: pink[💪ค่านวณค่าดัชนีมวลกาย BMI]")
+st.title("💪คำนวณค่าดัชนีมวลกาย BMI")
 st.write("กรอกข้อมูลน้ำหนักและส่วนสูงของคุณ เพื่อเช็กสุขภาพเบื้องต้น")
 
-weight = st.number_input("กรอกน้ำหนักของคุณ (กิโลกรัม):", min_value=1.0, max_value=300.0, value=55.0, step=0.5)
-height_cm = st.number_input("กรอกส่วนสูงของคุณ (เซนติเมตร):", min_value=50.0, max_value=250.0, value=158.0, step=0.5)
+weight = st.number_input("กรอกน้ำหนักของคุณ (กิโลกรัม):", min_value=1.0, max_value=300.0, value=0.0, step=0.5)
+height_cm = st.number_input("กรอกส่วนสูงของคุณ (เซนติเมตร):", min_value=50.0, max_value=250.0, value=0.0, step=0.5)
 
 if st.button("คำนวณค่า BMI 🎯"):
     height_m = height_cm / 100
